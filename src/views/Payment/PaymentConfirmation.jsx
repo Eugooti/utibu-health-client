@@ -1,5 +1,5 @@
 import {Card, Form, Input, message, Modal} from "antd";
-import Header from "../../components/Header/Header.jsx";
+import Header from "../../components/Header.jsx";
 import {useForm} from "antd/es/form/Form.js";
 import {MobileOutlined} from "@ant-design/icons";
 import {useNavigate} from "react-router-dom";

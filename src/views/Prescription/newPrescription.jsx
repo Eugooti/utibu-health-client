@@ -1,11 +1,11 @@
 import {Card, Form, message, Select} from "antd";
 import {useForm} from "antd/es/form/Form.js";
-import Header from "../../components/Header/Header.jsx";
+import Header from "../../components/Header.jsx";
 import {ShoppingCartOutlined} from "@ant-design/icons";
 import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
 import {useGetMedicine} from "../../API/appRequests/index.js";
-import Example from "../../components/Header/modal.jsx";
+import Example from "../../components/modal.jsx";
 import {getFromLocalStorage, setLocalStorage} from "../../Utils/LocalStorage/localStorage.jsx";
 import axios from "axios";
 

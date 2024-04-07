@@ -1,11 +1,11 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import {getFromLocalStorage} from "../../Utils/LocalStorage/localStorage.jsx";
+import {getFromLocalStorage} from "../Utils/LocalStorage/localStorage.jsx";
 import {HistoryOutlined, LoginOutlined, UserOutlined} from "@ant-design/icons";
 import {Link, useNavigate} from "react-router-dom";
-import Image from '../../assets/Images/team-11.jpg'
-import {useLogout} from "../../API/authRequests/index.js";
+import Image from '../assets/Images/team-11.jpg'
+import {useLogout} from "../API/authRequests/index.js";
 
 
 const navigation = [

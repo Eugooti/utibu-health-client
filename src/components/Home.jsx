@@ -1,5 +1,5 @@
 import {FloatButton, Layout, theme} from 'antd';
-import NavBar from './Header/Navbar.jsx'
+import NavBar from './Navbar.jsx'
 import {PlusCircleOutlined} from "@ant-design/icons";
 import Pages from "../views/index.jsx";
 import {getFromLocalStorage} from "../Utils/LocalStorage/localStorage.jsx";

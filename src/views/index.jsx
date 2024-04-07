@@ -1,17 +1,17 @@
-import Login from "./auth/login.jsx";
 import NewPrescription from "./Prescription/newPrescription.jsx";
 import Home from './Home/Home.jsx'
 import PaymentConfirmation from "./Payment/PaymentConfirmation.jsx";
 import {Route, Routes} from "react-router-dom";
-import Successful from "../components/Header/finish.jsx";
+import Successful from "../components/finish.jsx";
 import History from "./prescriptionHistory/prescriptionHistory.jsx";
+import Authentication from "./auth/index.jsx";
 
 const Pages = () => {
   return(
       < >
           <div className='bg-amber-100'>
               <Routes>
-                  <Route exact path={'/login'} element={<Login/>}/>
+                  <Route exact path={'/login'} element={<Authentication/>}/>
                   <Route exact path={'/'} element={<Home/>}/>
                   <Route exact path={'/order'} element={<NewPrescription/>}/>
                   <Route exact path={'/payment'} element={<PaymentConfirmation/>}/>
